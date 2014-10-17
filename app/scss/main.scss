@@ -1,0 +1,39 @@
+@import 'bourbon';
+@import 'utils/reset';
+
+body{
+	background-color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pageWrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+	text-align: center;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+.angularMessages {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ang-input {
+	outline: 0;
+	border: 1px solid dimgray;
+	margin-left: 30px;
+
+	&:focus {
+		border: 1px solid dimgray;
+		outline: 0;
+	}
+}
+
+.angh2 {
+	text-align: left;
+	font-size: 48px;
+	padding-top: 30px;
+}

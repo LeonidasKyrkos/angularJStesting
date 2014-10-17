@@ -1,0 +1,29 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>AngularJS Testing</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="build/css/main.css">
+	    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="pageWrap">
+			<header>
+				<h1>AngularJS Testing</h1>
+			</header>	
+			
+			<section class="angularMessages">
+				<label for="input">Name:</label><input class="ang-input" type="text" ng-model="name"> 
+				<h2 class="angh2">{{ name }}</h2>
+			</section>
+		</div>		
+
+		<script src="build/js/app.js"></script>
+   		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	</body>
+</html>
